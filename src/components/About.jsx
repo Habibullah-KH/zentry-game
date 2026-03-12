@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import AnimatedTitle from './AnimatedTitle';
 gsap.registerPlugin(ScrollTrigger);
 export default function About() {
     useGSAP(()=>{
@@ -17,7 +18,8 @@ export default function About() {
 
         useClipAnimation.to('.mask-clip-path', {
             height: '100vh',
-            width: '100vw'
+            width: '100vw',
+            rounded: '0px'
         })
     })
   return (
@@ -27,9 +29,7 @@ export default function About() {
                 Welcome to Zentry
             </h2>
 
-            <div className='mt-5 text-center text-4xl uppercase loading-[0.8] md:text-[6rem]'>
-            Disc<b>o</b>ver the world's l<b>a</b>rgest shared adventure
-            </div>
+            <AnimatedTitle title="Disc<b>o</b>ver the world's l<b>a</b>rgest shared adventure" containerClass="mt-5 !text-black text-center"/>
 
             <div className='about-subtext'>
                 <p>The Game of Games begins-your life, now on epic MMORPG</p>
