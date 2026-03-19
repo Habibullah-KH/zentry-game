@@ -1,16 +1,56 @@
-# React + Vite
+# Gaming Website - GSAP Learning Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a gaming-themed website I built to learn GSAP animation techniques in a real React project.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Website: [Add your deployed link here](https://awwars.netlify.app/)
 
-## React Compiler
+## About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The main goal of this project is to practice creating smooth, engaging animations and transitions with GSAP while building a modern UI.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hero and section animations with GSAP
+- Interactive scrolling and motion effects
+- Responsive layout for desktop and mobile
+- Reusable React components
+
+## Tech Stack
+
+- React
+- Vite
+- GSAP
+- CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- pnpm (or npm)
+
+### Installation
+
+```bash
+pnpm install
+```
+
+### Run Development Server
+
+```bash
+pnpm dev
+```
+
+### Build For Production
+
+```bash
+pnpm build
+```
+
+## Learning Focus
+
+- GSAP timelines
+- Scroll-based animation patterns
+- Performance-friendly animation practices
