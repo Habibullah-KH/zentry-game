@@ -19,7 +19,8 @@ export default function About() {
         useClipAnimation.to('.mask-clip-path', {
             height: '100vh',
             width: '100vw',
-            rounded: '0px'
+            borderRadius: 0,
+            duration: 1
         })
     })
   return (
