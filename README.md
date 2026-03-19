@@ -4,7 +4,7 @@ This is a gaming-themed website I built to learn GSAP animation techniques in a 
 
 ## Live Link
 
-- Website: [Add your deployed link here](https://awwars.netlify.app/)
+- Website: [https://awwars.netlify.app/](https://awwars.netlify.app/)
 
 ## About The Project
 
