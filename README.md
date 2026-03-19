@@ -1,4 +1,4 @@
-# Gaming Website - GSAP Learning Project
+# Zentry
 
 This is a gaming-themed website I built to learn GSAP animation techniques in a real React project.
 
