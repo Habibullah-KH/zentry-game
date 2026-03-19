@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Features from './components/Features'
 import Story from './components/Story'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
    <About/>
    <Features/>
    <Story/>
+   <Contact/>
    <Footer/>
    </main>
   )
